@@ -1,0 +1,22 @@
+2026-05-03 15:12:05 - agent - INFO - message_store.py:20 - [消息存储] 初始化完毕，存储路径: history
+2026-05-03 15:12:11 - agent - INFO - message_store.py:20 - [消息存储] 初始化完毕，存储路径: history
+2026-05-03 15:12:24 - agent - DEBUG - message_store.py:59 - [消息存储] 用户 default_user 消息已保存
+2026-05-03 15:12:24 - agent - INFO - middleware.py:38 - [before model]即将调用模型，带有2个消息
+2026-05-03 15:12:24 - agent - DEBUG - middleware.py:39 - [before model]消息类型:HumanMessage  |  你好？
+2026-05-03 15:12:27 - agent - INFO - react_agent.py:113 - [对话记录] 用户: 你好？... | AI: 你好？您好！我是扫地机器人和扫拖一体机器人的专业智能客服，请问有什么可以帮您的吗？...
+2026-05-03 15:12:27 - agent - DEBUG - message_store.py:59 - [消息存储] 用户 default_user 消息已保存
+2026-05-03 15:12:51 - agent - DEBUG - message_store.py:59 - [消息存储] 用户 default_user 消息已保存
+2026-05-03 15:12:51 - agent - INFO - middleware.py:38 - [before model]即将调用模型，带有4个消息
+2026-05-03 15:12:51 - agent - DEBUG - middleware.py:39 - [before model]消息类型:HumanMessage  |  我在杭州给出一份维护意见
+2026-05-03 15:12:58 - agent - INFO - middleware.py:17 - [tool monitor]执行工具: get_weather
+2026-05-03 15:12:58 - agent - INFO - middleware.py:18 - [tool monitor]传入参数: {'city': '杭州'}
+2026-05-03 15:12:58 - agent - INFO - middleware.py:21 - [tool monitor]工具get_weather执行成功
+2026-05-03 15:12:59 - agent - INFO - middleware.py:38 - [before model]即将调用模型，带有6个消息
+2026-05-03 15:12:59 - agent - DEBUG - middleware.py:39 - [before model]消息类型:ToolMessage  |  杭州的天气是晴天，温度25度。
+2026-05-03 15:13:06 - agent - INFO - middleware.py:17 - [tool monitor]执行工具: rag_summarize
+2026-05-03 15:13:06 - agent - INFO - middleware.py:18 - [tool monitor]传入参数: {'query': '扫地机器人日常维护保养建议'}
+2026-05-03 15:13:10 - agent - INFO - middleware.py:21 - [tool monitor]工具rag_summarize执行成功
+2026-05-03 15:13:11 - agent - INFO - middleware.py:38 - [before model]即将调用模型，带有8个消息
+2026-05-03 15:13:11 - agent - DEBUG - middleware.py:39 - [before model]消息类型:ToolMessage  |  定期清理滚刷和边刷上的缠绕物，清空尘盒并擦拭滤网，检查并清理传感器和充电触点，避免在潮湿或有水区域使用，长时间不用时应取出电池并存放于干燥处。
+2026-05-03 15:13:28 - agent - INFO - react_agent.py:113 - [对话记录] 用户: 我在杭州给出一份维护意见... | AI: 我在杭州给出一份维护意见我需要为用户在杭州的扫地机器人使用情况提供维护建议。首先，我应该了解杭州当前...
+2026-05-03 15:13:28 - agent - DEBUG - message_store.py:59 - [消息存储] 用户 default_user 消息已保存

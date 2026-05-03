@@ -1,0 +1,26 @@
+2026-05-03 14:23:44 - agent - INFO - middleware.py:38 - [before model]即将调用模型，带有2个消息
+2026-05-03 14:23:44 - agent - DEBUG - middleware.py:39 - [before model]消息类型:HumanMessage  |  你好？
+2026-05-03 14:23:47 - agent - INFO - react_agent.py:113 - [对话记录] 用户: 你好？... | AI: 你好？您好！我是扫地机器人和扫拖一体机器人的专业智能客服，请问有什么可以帮您的吗？...
+2026-05-03 14:24:02 - agent - INFO - middleware.py:38 - [before model]即将调用模型，带有4个消息
+2026-05-03 14:24:02 - agent - DEBUG - middleware.py:39 - [before model]消息类型:HumanMessage  |  你能看到我的历史记录吗？
+2026-05-03 14:24:08 - agent - INFO - middleware.py:17 - [tool monitor]执行工具: get_user_id
+2026-05-03 14:24:08 - agent - INFO - middleware.py:18 - [tool monitor]传入参数: {}
+2026-05-03 14:24:08 - agent - INFO - middleware.py:21 - [tool monitor]工具get_user_id执行成功
+2026-05-03 14:24:08 - agent - INFO - middleware.py:38 - [before model]即将调用模型，带有6个消息
+2026-05-03 14:24:08 - agent - DEBUG - middleware.py:39 - [before model]消息类型:ToolMessage  |  1005
+2026-05-03 14:24:11 - agent - INFO - middleware.py:17 - [tool monitor]执行工具: get_current_month
+2026-05-03 14:24:11 - agent - INFO - middleware.py:18 - [tool monitor]传入参数: {}
+2026-05-03 14:24:11 - agent - INFO - middleware.py:21 - [tool monitor]工具get_current_month执行成功
+2026-05-03 14:24:11 - agent - INFO - middleware.py:38 - [before model]即将调用模型，带有8个消息
+2026-05-03 14:24:11 - agent - DEBUG - middleware.py:39 - [before model]消息类型:ToolMessage  |  2025-07
+2026-05-03 14:24:16 - agent - INFO - middleware.py:17 - [tool monitor]执行工具: file_context_for_report
+2026-05-03 14:24:16 - agent - INFO - middleware.py:18 - [tool monitor]传入参数: {}
+2026-05-03 14:24:16 - agent - INFO - middleware.py:21 - [tool monitor]工具file_context_for_report执行成功
+2026-05-03 14:24:16 - agent - INFO - middleware.py:38 - [before model]即将调用模型，带有10个消息
+2026-05-03 14:24:16 - agent - DEBUG - middleware.py:39 - [before model]消息类型:ToolMessage  |  file_context_for_report已调用
+2026-05-03 14:24:42 - agent - INFO - file_uploader_service.py:70 - [上传] 文件 CC++一站式就业知识库网站地址.txt, MD5: 68cf49a83eb28a87edbc81b7ab7f3f75
+2026-05-03 14:24:43 - agent - INFO - file_uploader_service.py:43 - [MD5保存] 成功保存 MD5: 68cf49a83eb28a87edbc81b7ab7f3f75
+2026-05-03 14:24:43 - agent - INFO - file_uploader_service.py:115 - [上传] 文件 'CC++一站式就业知识库网站地址.txt' 上传成功！ 分片数: 1
+2026-05-03 14:25:01 - agent - INFO - middleware.py:38 - [before model]即将调用模型，带有5个消息
+2026-05-03 14:25:01 - agent - DEBUG - middleware.py:39 - [before model]消息类型:HumanMessage  |  我想学习c++，应该看哪个网站？
+2026-05-03 14:25:10 - agent - INFO - react_agent.py:113 - [对话记录] 用户: 我想学习c++，应该看哪个网站？... | AI: 我想学习c++，应该看哪个网站？您好！我是扫地机器人和扫拖一体机器人的专业智能客服，主要协助您解决与...

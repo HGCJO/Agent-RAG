@@ -1,0 +1,27 @@
+2026-05-02 16:17:50 - agent - INFO - middleware.py:38 - [before model]即将调用模型，带有1个消息
+2026-05-02 16:17:50 - agent - DEBUG - middleware.py:39 - [before model]消息类型:HumanMessage  |  生成使用报告
+2026-05-02 16:17:51 - agent - INFO - middleware.py:17 - [tool monitor]执行工具: get_user_id
+2026-05-02 16:17:51 - agent - INFO - middleware.py:18 - [tool monitor]传入参数: {}
+2026-05-02 16:17:51 - agent - INFO - middleware.py:21 - [tool monitor]工具get_user_id执行成功
+2026-05-02 16:17:51 - agent - INFO - middleware.py:38 - [before model]即将调用模型，带有3个消息
+2026-05-02 16:17:51 - agent - DEBUG - middleware.py:39 - [before model]消息类型:ToolMessage  |  1005
+2026-05-02 16:17:53 - agent - INFO - middleware.py:17 - [tool monitor]执行工具: get_current_month
+2026-05-02 16:17:53 - agent - INFO - middleware.py:18 - [tool monitor]传入参数: {}
+2026-05-02 16:17:53 - agent - INFO - middleware.py:21 - [tool monitor]工具get_current_month执行成功
+2026-05-02 16:17:53 - agent - INFO - middleware.py:38 - [before model]即将调用模型，带有5个消息
+2026-05-02 16:17:53 - agent - DEBUG - middleware.py:39 - [before model]消息类型:ToolMessage  |  2025-05
+2026-05-02 16:17:54 - agent - INFO - middleware.py:17 - [tool monitor]执行工具: file_context_for_report
+2026-05-02 16:17:54 - agent - INFO - middleware.py:18 - [tool monitor]传入参数: {}
+2026-05-02 16:17:54 - agent - INFO - middleware.py:21 - [tool monitor]工具file_context_for_report执行成功
+2026-05-02 16:17:54 - agent - INFO - middleware.py:38 - [before model]即将调用模型，带有7个消息
+2026-05-02 16:17:54 - agent - DEBUG - middleware.py:39 - [before model]消息类型:ToolMessage  |  file_context_for_report已调用
+2026-05-02 16:17:58 - agent - INFO - middleware.py:17 - [tool monitor]执行工具: fetch_external_data
+2026-05-02 16:17:58 - agent - INFO - middleware.py:18 - [tool monitor]传入参数: {'user_id': '1005', 'month': '2025-05'}
+2026-05-02 16:17:58 - agent - INFO - middleware.py:21 - [tool monitor]工具fetch_external_data执行成功
+2026-05-02 16:17:58 - agent - INFO - middleware.py:38 - [before model]即将调用模型，带有9个消息
+2026-05-02 16:17:58 - agent - DEBUG - middleware.py:39 - [before model]消息类型:ToolMessage  |  {"特征": "120㎡ | 老人 | 防滑砖", "效率": "手动操作占比:75%\\n定时清扫使用率:7次/周", "耗材": "电池衰减:29%\\n水箱使用率:70%", "对比": "语音控制功能使用熟练度满分"}
+2026-05-02 16:18:00 - agent - INFO - middleware.py:17 - [tool monitor]执行工具: rag_summarize
+2026-05-02 16:18:00 - agent - INFO - middleware.py:18 - [tool monitor]传入参数: {'query': '老人使用扫地机器人注意事项和防滑砖地面清洁建议'}
+2026-05-02 16:18:02 - agent - INFO - middleware.py:21 - [tool monitor]工具rag_summarize执行成功
+2026-05-02 16:18:02 - agent - INFO - middleware.py:38 - [before model]即将调用模型，带有11个消息
+2026-05-02 16:18:02 - agent - DEBUG - middleware.py:39 - [before model]消息类型:ToolMessage  |  老人使用扫地机器人时，应确保操作简便、避免复杂设置；在防滑砖地面清洁时，因防滑砖多属老旧地砖或粗糙表面，清扫后需立即清理机身底部和轮组的泥沙，防止配件磨损，并减少拖地频次以避免灰尘结块。

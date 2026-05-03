@@ -1,0 +1,27 @@
+2026-05-02 17:00:04 - agent - INFO - file_uploader_service.py:70 - [上传] 文件 佐证材料.docx, MD5: f4263a32a6f925bbdf7f2f143ae873ec
+2026-05-02 17:00:04 - agent - ERROR - file_uploader_service.py:158 - [上传] 加载文档 佐证材料.docx 失败: unstructured package not found, please install it with `pip install unstructured`
+Traceback (most recent call last):
+  File "F:\anaconda\envs\langchain_env\lib\site-packages\langchain_community\document_loaders\unstructured.py", line 59, in __init__
+    import unstructured  # noqa:F401
+ModuleNotFoundError: No module named 'unstructured'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\MY_project\Agent-RAG\utils\file_uploader_service.py", line 144, in _load_documents
+    docs = doc_loader(temp_path)
+  File "D:\MY_project\Agent-RAG\utils\file_handler.py", line 50, in doc_loader
+    return UnstructuredWordDocumentLoader(filepath).load()
+  File "F:\anaconda\envs\langchain_env\lib\site-packages\langchain_community\document_loaders\word_document.py", line 113, in __init__
+    super().__init__(file_path=file_path, mode=mode, **unstructured_kwargs)
+  File "F:\anaconda\envs\langchain_env\lib\site-packages\langchain_core\_api\deprecation.py", line 238, in warn_if_direct_instance
+    return wrapped(self, *args, **kwargs)
+  File "F:\anaconda\envs\langchain_env\lib\site-packages\langchain_community\document_loaders\unstructured.py", line 213, in __init__
+    super().__init__(mode=mode, **unstructured_kwargs)
+  File "F:\anaconda\envs\langchain_env\lib\site-packages\langchain_community\document_loaders\unstructured.py", line 61, in __init__
+    raise ImportError(
+ImportError: unstructured package not found, please install it with `pip install unstructured`
+2026-05-02 17:00:04 - agent - ERROR - file_uploader_service.py:83 - [上传] 文件 '佐证材料.docx' 无法解析或为空。
+2026-05-02 17:00:14 - agent - INFO - file_uploader_service.py:70 - [上传] 文件 报告书封面.pdf, MD5: e7d28654c6d9b100d70eb779cc9ca1a4
+2026-05-02 17:00:15 - agent - INFO - file_uploader_service.py:43 - [MD5保存] 成功保存 MD5: e7d28654c6d9b100d70eb779cc9ca1a4
+2026-05-02 17:00:15 - agent - INFO - file_uploader_service.py:115 - [上传] 文件 '报告书封面.pdf' 上传成功！ 分片数: 10
